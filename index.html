@@ -8,16 +8,37 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
-            <h2>Tutorials</h2>
+        <header class="app-bar" id="app-bar">
+            <button class="menu-button" id="menu-button">&#9776;</button>
+            <h1 id="app-bar-title">Dart Tutorials</h1>
+        </header>
+        <div class="drawer-background" id="drawer-background"></div>
+        <aside class="sidebar" id="sidebar">
+            <h2>Dart Tutorials</h2>
+            <input type="text" id="search-input" placeholder="Search tutorials...">
             <ul id="tutorial-list"></ul>
-        </div>
-        <div class="content">
+            <footer>
+                <p>&copy; 2024 Md. Rahul Reza. All rights reserved.</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/rahul-reza/" target="_blank">LinkedIn</a>
+                    <a href="https://www.youtube.com/@rahuls_diary" target="_blank">YouTube</a>
+                    <a href="https://rahulreza.blogspot.com/" target="_blank">Blogger Website</a>
+                    <a href="https://rahulreza.com" target="_blank">Website</a>
+                </div>
+            </footer>
+        </aside>
+        <main class="content" id="content">
             <div id="content-placeholder" class="content-item active">
                 <h2>Welcome</h2>
-                <p>Select a tutorial to view its content.</p>
+                <!-- 
+                <p>Select a tutorial to view its content. Explore the fundamentals of Dart programming with comprehensive guides, practical examples, and hands-on exercises. Dive into Dart's powerful features, from basic syntax to advanced concepts like asynchronous programming and Flutter integration. Whether you're a beginner or an experienced developer, discover valuable insights and tips to enhance your coding skills. Start your journey into Dart programming today!</p>
+-->
+                <h2>স্বাগতম</h2>
+                <!-- 
+                <p>একটি টিউটোরিয়াল নির্বাচন করুন এবং তার বিষয়বস্তু দেখুন। ডার্ট প্রোগ্রামিং এর মৌলিক বিষয়গুলি অন্বেষণ করুন ব্যাপক গাইড, বাস্তব উদাহরণ, এবং হ্যান্ডস-অন অনুশীলনের মাধ্যমে। ডার্ট এর শক্তিশালী বৈশিষ্ট্যগুলির জন্য প্রাথমিক সিনট্যাক্স থেকে অভিকল্পিত অধ্যায়গুলি পর্যন্ত উন্নত ধারণাগুলি অন্বেষণ করুন। আপনি একজন শুরুকারী না অথবা একজন দক্ষ ডেভেলপার, আপনার কোডিং দক্ষতা উন্নত করতে মূল্যবান দৃষ্টিকোণ এবং টিপস পান। আজই ডার্ট প্রোগ্রামিং এ আপনার প্রয়োজনীয় পথ শুরু করুন!</p>
+            -->
             </div>
-        </div>
+        </main>
     </div>
     <script src="script.js"></script>
 </body>
